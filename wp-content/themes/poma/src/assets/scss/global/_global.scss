@@ -1,0 +1,299 @@
+.displayNone{
+    display: none;
+}
+.displayBlock{
+    display: block
+}
+.whiteText{
+    color: white;
+}
+.tealText{
+    color: rgb(16, 196, 166);
+}
+.goldText{
+    color: gold;
+}
+.blackText{
+    color: black;
+}
+.greyText{
+color: grey;
+}
+.lato{
+    font-family: Lato, sans-serif;
+}
+.lato400{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+.lato700{
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+.oswald{
+    font-family: Oswald, sans-serif;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lgFont{
+    font-size: 3rem;
+}
+.medFont{
+    font-size: 2rem;
+}
+.xsmFont{
+    font-size: 0.8rem;
+}
+.smFont{
+    font-size: 1rem;
+}
+.sm2Font{
+    font-size: 1.5rem;
+}
+.sm3Font{
+    font-size: 1rem;
+}
+.letterSpacingMed{
+letter-spacing: 1rem;
+}
+
+.greyBorderLeft{
+    border-left: 1px solid rgb(231, 230, 230);
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.powderBlueBackground{
+    background-color: #e9f9fcdc;
+}
+
+.transparentBlackBg{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.greyBackground {
+    background-color: rgba(189, 186, 186, 0.521);
+}
+.ltgreyBackground {
+    background-color: rgba(189, 186, 186, 0.308);
+}
+
+.bluegreyBackground {
+    background-color: rgba(180, 195, 206, 0.616);
+}
+
+.blackBackground {
+    background-color: black;
+}
+.whiteBackground{
+    background: white;
+}
+.whiteBorder{
+    border: 10px solid white;
+}
+.greyBorder{
+    border: 10px solid rgba(189, 186, 186, 0.521);
+}
+.goldBorder{
+    border:1px solid #ffd700;
+    border-radius: 10px;
+}
+.borderRadius-sm{
+    border-radius: 12px;
+}
+.underlineGold{
+    text-decoration: underline;
+    text-decoration-color: rgb(223, 188, 15);
+}
+.underlineTeal{
+    text-decoration: underline;
+    text-decoration-color: rgb(16, 196, 166);;
+}
+.underlineBlack{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+
+
+.marginNone{
+    margin: 0 !important;
+}
+
+//contact form
+
+#wpcf7-f101-p21-o1 p label{
+    color: rgb(16, 196, 166);
+    font-size: 1.2rem;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+.wpcf7-form-control{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+#comments h3, #respond h3{
+    font-size: 1.2em;
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: teal;
+}
+
+#comment{
+    height: 200px;
+}
+
+#searchform{
+    width: 90%;
+}
+
+@media only screen
+and (min-width:600px ){
+    .displayNone-tablet{
+        display: none;
+    }
+    .displayBlock-tablet{
+        display: block
+    }
+
+    .uppercase-tablet{
+        text-transform: uppercase;
+    }
+    .lgFont-tablet{
+        font-size: 3rem;
+    }
+    .medFont-tablet{
+        font-size: 2rem;
+    }
+    .smFont-tablet{
+        font-size: 1.2rem;
+    }
+    .letterSpacingMed-tablet{
+    letter-spacing: 1rem;
+    }
+    .background-none-tablet{
+        background: none;
+    }
+    .border-none-tablet{
+        border: none;
+    }
+    .underlineTeal-tablet{
+        text-decoration: underline;
+        text-decoration-color: rgb(16, 196, 166);
+    }
+    .underlineGrey-tablet{
+        text-decoration: underline;
+        text-decoration-color: #f0eef5;
+    }
+
+    .transparentBlackBg-tablet{
+        background-color: rgba(0, 0, 0, 0.418);
+    }
+    .greyBackground-tablet {
+        background-color: rgba(189, 186, 186, 0.521);
+    }
+    
+    .bluegreyBackground-tablet {
+        background-color: rgba(180, 195, 206, 0.616);
+    }
+    
+    .blackBackground-tablet {
+        background-color: black;
+    }
+    .whiteBackground-tablet{
+        background: white;
+    }
+    .goldBorder-tablet{
+        border:3px solid #ffd700;
+        border-radius: 25px;
+    }
+    .borderRadius-med-tablet{
+        border-radius: 20px;
+    }
+
+    .homeDescription {
+        border-bottom: 20px solid white;
+        padding: 2em !important;
+        p {
+            width: 75% !important;
+        }
+    }
+
+    #wpcf7-f101-p21-o1 {
+        width: 80%;
+    }
+
+    .homeDescription {
+        border-bottom: 20px solid white;
+        padding: 2em !important;
+        p {
+            width: 60% !important;
+            line-height: 2.1em;
+        }
+    }
+    .d-direction-row-reverse-tablet{
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .d-direction-row-tablet{
+        flex-direction: row;
+    }
+ 
+
+}
+
+@media only screen
+and (min-width:1000px ){
+
+    #wpcf7-f101-p21-o1 {
+        width: 60%;
+    }
+
+
+}
+
+//MASONRY
+
+#wmle_container{
+    width: 100% !important;
+   // padding: 1rem !important;
+
+}
+
+.wmle_container .wmle_item {
+    border: 1px solid rgb(207, 207, 200) !important;
+    border-radius: 5px !important;
+    margin: 5px !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.wmle_post_title{
+    color:  rgb(16, 196, 166) !important;
+   // color:  black!important;
+    font-size: 1.4rem !important;
+    text-align: center !important;
+    
+    // text-decoration-color: gold !important;
+    font-family: Oswald;
+    border-bottom: 1px rgb(255, 255, 255) solid !important;
+    border-top: 1px rgb(255, 255, 255) solid !important;
+
+    text-transform: uppercase !important;
+    a{
+        text-decoration: gold  underline !important;
+    }
+}
+
+.wmle_post_meta{
+    text-align: center !important;
+}
+.wmle_post_excerpt{
+    text-align: justify;
+    color: rgb(78, 80, 79) !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    font-family: Lato, sans-serif;
+
+}

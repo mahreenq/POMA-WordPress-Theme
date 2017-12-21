@@ -1,0 +1,182 @@
+// Navigation breakpoints
+.mobile-menu,
+.site-title-bar {
+  @include hide-for(medium);
+}
+
+.desktop-menu,
+.site-navigation .top-bar-left {
+  @include show-for(medium);
+}
+
+// Site title
+.site-desktop-title a {
+  font-weight: bold;
+}
+
+// Mobile menu
+.mobile-menu {
+  display: none; // prevents repaint caused by JS hiding menu onload
+}
+
+.off-canvas {
+  > ul.menu {
+    height: 100vh;
+    padding: 1rem;
+
+    a {
+      color: $white;
+      font-weight: 600;
+      font-size: rem-calc(15);
+    }
+  }
+
+  .menu .active > a { background-color: #ccc; }
+
+}
+
+.title-bar-title {
+  a {
+    font-size: 1rem;
+    color: #B9B9B9;
+  }
+}
+
+.mobile-menu,
+.mobile-off-canvas-menu {
+
+  .menu .is-active > a {
+    background-color: lighten($dark-nav-color, 5%);
+  }
+}
+
+// Tablet and desktop menu
+
+.top-bar {
+
+  .top-bar-title a {
+    font-size: 1rem;
+    color: #B9B9B9;
+    padding-left: 1rem;
+    line-height: 1.8;
+  }
+
+  .menu a {
+    color: #e6e6e6;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1;
+
+    &:hover:not(.button) {
+      background-color: #42525D;
+    }
+  }
+
+  .menu .active > a { background-color: #ccc; }
+
+  .menu>li:not(.menu-text)>a { padding: 1rem; }
+  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+
+  .dropdown.menu .submenu { border: 0; }
+  .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
+  .dropdown.menu .has-submenu.is-down-arrow > a::after { border: 0; }
+  .dropdown.menu:first-child > li.is-dropdown-submenu-parent > a::after { display: none; }
+}
+
+.site-navigation {
+  @include breakpoint(small only) {
+    padding: 0; // prevents container visibility on small screens
+  }
+}
+
+// WP post navigation
+.post-navigation {
+  @include clearfix;
+}
+
+.nav-previous {
+  float:left;
+}
+
+.nav-next {
+  float:right;
+}
+
+
+
+
+
+.top-bar, .top-bar ul{
+  background-color: black !important;
+}
+.title-bar{
+  background-color: black !important
+}
+
+.title-bar-title a, .top-bar .menu a{
+  color: #ffd700 !important;
+  font-family: lato;
+  font-size: 1rem;
+}
+
+.top-bar .menu a:hover:not(.button){
+  background-color: #ffd50091 !important;
+  color: black !important;
+}
+
+.mobile-menu .menu .is-active > a, .mobile-off-canvas-menu .menu .is-active > a {
+  background-color: black !important;
+}
+
+.is-dropdown-submenu-item{
+  border: 1px solid #ffd50091;
+  // background-color: #ffd50091 !important;
+}
+
+@media only screen
+and (min-width:600px ) {
+  .width15-tablet{
+    width: 15%;
+  }
+
+}
+
+@media only screen
+and (min-width:1000px ) {
+  .width6-desktop{
+    width: 6%;
+  }
+  .top-bar .menu li:not(:last-child){
+    border: none;
+  }
+  #menu-header-menu{
+    justify-content: space-around;
+
+  }
+
+}
+
+
+a{
+  line-height: inherit;
+  color: inherit !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  line-height: inherit;
+  color: gold !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar li{
+  list-style: none;
+  color: rgb(100, 98, 98);
+}
+.sidebar h6{
+ color: rgb(14, 197, 182);
+ font-size: 1.1em;
+}
