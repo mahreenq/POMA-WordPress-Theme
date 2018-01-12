@@ -19,7 +19,7 @@ get_header(); ?>
 
 <div class="main-wrap">
 	<main class="main-content padding-bottom-med">
-	<h1 class="text-align-center lgFont  bluegreyBackground greyText underlineTeal padding-top-lg padding-bottom-lg uppercase oswald"> Browse through our past events </h1>
+	<h1 class="text-align-center lgFont  blackBackground whiteText padding-top-lg padding-bottom-lg uppercase oswald"> Browse through our past events </h1>
 	<div class="allPastEvents flex-tablet flex-wrap-tablet justify-content-center-tablet flex-desktop flex-wrap-desktop justify-content-center-desktop padding-lg ltgreyBackground">
 	<?php if ( have_posts() ) : ?>
 

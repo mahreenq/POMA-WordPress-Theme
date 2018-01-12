@@ -17,7 +17,7 @@ get_header(); ?>
                 <h1 class="entry-title oswald goldText uppercase letterSpacingMed lgFont "><?php single_post_title(); ?></h1>
         </div>
 </div>
-	<main class="main-content flex flex-wrap padding-lg justify-content-space-around-tablet justify-content-space-around-desktop padding-right-lg-desktop padding-left-lg-desktop bluegreyBackground">
+	<main class="main-content flex flex-wrap padding-lg justify-content-space-around-tablet justify-content-space-around-desktop padding-right-lg-desktop padding-left-lg-desktop blackBackground">
 	<?php echo do_shortcode( '[wmls name="blogposts" id="1"]' ); ?>
 	
 		<?php /* Display navigation to next/previous pages when applicable */ ?>

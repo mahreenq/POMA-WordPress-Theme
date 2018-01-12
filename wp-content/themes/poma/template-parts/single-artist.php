@@ -10,10 +10,10 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" class="padding-top-xl padding-bottom-xlg flex-tablet flex-direction-column align-items-center-tablet justify-content-center-tablet">
+<article id="post-<?php the_ID(); ?>" class=" padding-top-xl padding-bottom-xlg flex-tablet flex-direction-column align-items-center-tablet justify-content-center-tablet">
 
 
-        <div class=" width-100 width-90-tablet width-90-desktop" 
+        <div class=" width-100 width-50-tablet width-50-desktop" 
                         style="height:600px;background:  url('<?php the_post_thumbnail_url(); ?>');background-size:contain; background-position:center; background-repeat: no-repeat;">
         </div>
 
@@ -22,7 +22,7 @@
 	<?php if ( is_single() ) {		
 		the_title( '<h1 class="entry-title padding-top-med oswald greyText lgFont text-align-center uppercase">', '</h1>' );
 		} else {
-		the_title( '<h2 class="entry-title oswald padding-top-med greyText underlineTeal text-align-center uppercase"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		the_title( '<h2 class="entry-title oswald padding-top-med greyText text-align-center uppercase"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		}
 	?>
 	</header>

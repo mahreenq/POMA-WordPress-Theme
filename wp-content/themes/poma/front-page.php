@@ -27,8 +27,8 @@ get_header(); ?>
 		<?php /* Start the Loop */ ?>
         <?php while ( have_posts() ) : the_post(); ?>
        <div class="text-align-center flex flex-direction-column  ">
-           <h1 class="text-align-center boldoswald padding-top-med whiteBorder padding-bottom-med lgFont greyBackground oswald underlineGold"> <?php the_title(); ?> </h1>
-           <div class= " homeDescription text-align-center padding-med smFont lato bluegreyBackground flex-tablet justify-content-center-tablet flex-desktop justify-content-center-desktop ">
+           <h1 class="text-align-center boldoswald padding-top-med whiteBorder padding-bottom-med lgFont greyBackground oswald "> <?php the_title(); ?> </h1>
+           <div class= " homeDescription text-align-center padding-med lato flex-tablet blackBackground whiteText smp3Font justify-content-center-tablet flex-desktop justify-content-center-desktop ">
             <?php the_content(); ?> 
             </div>
         </div>
@@ -38,6 +38,7 @@ get_header(); ?>
         <?php get_template_part( 'template-parts/home-testimonials' ); ?>
         <?php get_template_part( 'template-parts/home-journal' ); ?>
         <?php get_template_part( 'template-parts/home-artists' ); ?>
+        <?php get_template_part( 'template-parts/home-mailchimp' ); ?>
         
 
 

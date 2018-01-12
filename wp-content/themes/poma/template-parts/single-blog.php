@@ -14,14 +14,14 @@
 
 
         <div class="" 
-                        style="width:90%;height:500px;background:  url('<?php the_post_thumbnail_url(); ?>');background-size:cover; background-position:center; background-repeat: no-repeat;">
+                        style="width:90%;height:500px;background:  url('<?php the_post_thumbnail_url(); ?>');background-size:contain; background-position:center; background-repeat: no-repeat;">
         </div>
 
 	<header class=" padding-left-lg-desktop">
 	<?php if ( is_single() ) {		
-		the_title( '<h1 class="entry-title oswald greyText underlineTeal lgFont">', '</h1>' );
+		the_title( '<h1 class="entry-title oswald greyText lgFont">', '</h1>' );
 		} else {
-		the_title( '<h2 class="entry-title oswald greyText underlineTeal"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		the_title( '<h2 class="entry-title oswald greyText "><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		}
 	?>
 		<div class="xsm-font">

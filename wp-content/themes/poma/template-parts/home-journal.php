@@ -1,9 +1,9 @@
 <div class="width-100 flex justify-content-center">
-                <h1 class="text-align-center padding-med oswald medFont uppercase underlineGold medFont-tablet  "> Follow our blog and keep up with the latest news </h1>
+                <h1 class="text-align-center padding-med oswald medFont uppercase medFont-tablet  "> Follow our blog and keep up with the latest news </h1>
                 </div>
 
 
-<div class="blogshomepage powderBlueBackground padding-top-lg flex flex-direction-column justify-content-space-around flex-tablet flex-direction-row-tablet  flex-desktop flex-direction-row-desktop ">
+<div class="blogshomepage goldBackground padding-top-lg flex flex-direction-column justify-content-space-around flex-tablet flex-direction-row-tablet  flex-desktop flex-direction-row-desktop ">
 
             <?php
             global $query_string;
@@ -22,9 +22,9 @@
 
                     </div>
         
-                    <h3 class="uppercase oswald journalTitleHome text-align-center medFont tealText "><?php the_title(); ?> </h3>
+                    <h3 class="uppercase oswald journalTitleHome text-align-center medFont  "><?php the_title(); ?> </h3>
                     <?php
-                    echo '<h4 class="lato400 greyText smFont"><a   href="'.get_permalink().'"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i>READ ENTRY </a> </h4> '; ?>
+                    echo '<h4 class="lato400 smFont"><a class="homeReadEntry"  href="'.get_permalink().'"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  READ ENTRY </a> </h4> '; ?>
             </div>
 
             <?php endwhile; ?>

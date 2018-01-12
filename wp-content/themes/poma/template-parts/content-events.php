@@ -39,7 +39,7 @@
                             $group="d-direction-row-tablet";
                                 if($i % 2 !== 0){$group ="d-direction-row-reverse-tablet text-align-right justify-content-flex-start-tablet";}  ?>
 
-                                <div class="whiteBackground goldBorder margin-top-sm flex padding-sm align-items-center flex-direction-column <?php echo $group ?> ">
+                                <div class="whiteBackground goldBorder margin-top-sm flex padding-sm flex-direction-column <?php echo $group ?> ">
 
                                     <div class= "width-100 borderRadius-sm height-500 height-600-desktop" style="background:  url('<?php echo $field[picture]; ?>');background-size:cover; background-position:center;">
                                     </div>

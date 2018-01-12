@@ -9,12 +9,12 @@
 get_header(); ?>
 
 
-<h1 class="text-align-center padding-bottom-med padding-top-med oswald lgFont singleBlogHeading goldText underlineTeal"> BLOG </h1>
+<!-- <h1 class="text-align-center padding-bottom-med padding-top-med oswald lgFont singleBlogHeading goldText "> BLOG </h1> -->
 
 <div class="main-wrap flex flex-direction-column flex-direction-row-tablet flex-direction-row-desktop">
     
 
-	<main class="main-content padding-med bluegreyBackground">
+	<main class="main-content padding-med ">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/single-blog' ); ?>
 			<div class="commentsBlog width-75-desktop  padding-left-lg-desktop">

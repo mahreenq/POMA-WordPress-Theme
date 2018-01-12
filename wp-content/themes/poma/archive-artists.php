@@ -18,8 +18,8 @@
 get_header(); ?>
 
 <div class="main-wrap">
-<h1 class="text-align-center padding-top-lg padding-bottom-med  uppercase oswald lgFont goldText transparentBlackBg "> Meet our Artists </h1>
-	<main class="main-content flex flex-direction-column flex-direction-row-tablet flex-wrap-tablet justify-content-center bluegreyBackground padding-lg">
+<h1 class="text-align-center padding-top-lg padding-bottom-med  uppercase oswald lgFont blackBackground whiteText "> Meet our Artists </h1>
+	<main class="main-content flex flex-direction-column flex-direction-row-tablet flex-wrap-tablet justify-content-center padding-lg ">
 	<?php echo do_shortcode( '[wmls name="artists" id="2"]' ); ?>
 	
 		<?php

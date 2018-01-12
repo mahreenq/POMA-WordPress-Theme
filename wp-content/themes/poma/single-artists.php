@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="main-wrap">
 	<main class="main-content ">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/single-pastevent' ); ?>
+			<?php get_template_part( 'template-parts/single-artist' ); ?>
 			
 		<?php endwhile;?>
 	</main>
