@@ -32,8 +32,8 @@
   font-size: 1.3rem;
   color: gold;
  padding: 5px;
-  text-decoration: underline;
-  text-decoration-color: rgb(6, 197, 197);
+  // text-decoration: underline;
+  // text-decoration-color: rgb(6, 197, 197);
 }
 .aboutUsFooter{
   color: white;
@@ -53,32 +53,22 @@
 and (min-width:600px ){
 
   .footer {
-    // @include xy-grid-container;
-    // @include xy-grid;
-    // padding: rem-calc(30) 0;
+  
     margin: 0 !important;
     flex-direction: row !important;
     text-align: center;
     width: 100% !important;
     justify-content: space-between;
   
-     section {
-    //   // width: 40%;
+     section:nth-child(-n+2) {
+      width: 27%;
       padding-right: 20px;
       padding-left: 20px;
      }
 
-    #text-3 {
-      width: 40%;
-      .textwidget{
-        padding-top: 25px;
-      }
-    }
-    #text-5 {
-      width: 60%;
-    }
+   
   #sb_instagram{
-    margin-right: 0 !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,6 +79,13 @@ and (min-width:600px ){
       list-style-type: none;
       margin: 0;
       padding: 0;
+    }
+  }
+
+  .textwidget{
+    padding-top: 30px;
+    .aboutUsFooter{
+      padding-top:20px;
     }
   }
 

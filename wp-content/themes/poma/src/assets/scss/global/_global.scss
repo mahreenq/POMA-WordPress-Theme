@@ -128,16 +128,17 @@ letter-spacing: 1rem;
 
 //contact form
 
-#wpcf7-f101-p21-o1 p label{
+#wpcf7-f4-p28-o1 p label{
     color: rgb(16, 196, 166);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Lato, sans-serif;
     font-weight: 700;
 }
 
 .wpcf7-form-control{
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
+    padding-left: 10px;
 }
 
 
@@ -246,7 +247,7 @@ and (min-width:600px ){
         }
     }
 
-    #wpcf7-f101-p21-o1 {
+    #wpcf7-f4-p28-o1 {
         width: 80%;
     }
 
@@ -272,7 +273,7 @@ and (min-width:600px ){
 @media only screen
 and (min-width:1000px ){
 
-    #wpcf7-f101-p21-o1 {
+    #wpcf7-f4-p28-o1 {
         width: 60%;
     }
 
@@ -285,6 +286,10 @@ and (min-width:1000px ){
     width: 100% !important;
    // padding: 1rem !important;
 
+}
+
+.wmle_post_meta{
+    display: none !important;
 }
 
 .wmle_container .wmle_item {

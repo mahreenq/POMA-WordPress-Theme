@@ -23,7 +23,7 @@
 
 
 
-	<div class="entry-content padding-right-lg padding-left-lg padding-bottom-med lato700 padding-top-lg bluegreyBackground medFont underlineGold text-align-center text-align-left-tablet">
+	<div class="entry-content padding-right-lg padding-left-lg padding-bottom-med lato700 padding-top-lg blackBackground sm2Font whiteText text-align-center text-align-left-tablet">
 		<?php the_content(); ?>
 		<?php edit_post_link( __( '(Edit)', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
 	</div>
